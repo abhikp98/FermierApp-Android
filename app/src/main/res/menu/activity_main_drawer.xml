@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_keyboard_double_arrow_right_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_all_list"
+            android:icon="@drawable/ic_baseline_keyboard_double_arrow_right_24"
+            android:title="Crop, Fertilizer, Pepticide" />
+        <item
+            android:id="@+id/nav_all_off"
+            android:icon="@drawable/ic_baseline_keyboard_double_arrow_right_24"
+            android:title="View Nearest Offices" />
+        <item
+            android:id="@+id/nav_view_request_status"
+            android:icon="@drawable/ic_baseline_keyboard_double_arrow_right_24"
+            android:title="View Request Status" />
+        <item
+            android:id="@+id/nav_view_complaints"
+            android:icon="@drawable/ic_baseline_keyboard_double_arrow_right_24"
+            android:title="View Complaints" />
+        <item
+            android:id="@+id/nav_send_feedback"
+            android:icon="@drawable/ic_baseline_keyboard_double_arrow_right_24"
+            android:title="Send Feedback" />
+
+    </group>
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ee">
+
+
+
+    <LinearLayout
+        android:id="@+id/tab1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+        <ListView
+            android:id="@+id/list_chat"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:divider="@null"
+            android:layout_weight="1" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/input_chat_message"
+                android:layout_width="0dip"
+                android:height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundedit"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/fermier"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:ems="10"
+                >
+
+                <requestFocus />
+            </EditText>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/button_chat_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:backgroundTint="@color/fermier"
+                android:src="@drawable/ic_baseline_send_24"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
